@@ -7,4 +7,4 @@ Cylinder.prototype.Valume = function() {
 	return this.cyl_heigh * cyl_diameter * Math.PI * radius * radius;
 };
 	var cyl = new cylinder(8,4);
-	console.log ('volume=', cyl.Valume().toFixed(4));
+	console.log ('volume:', cyl.Valume().toFixed(4));
